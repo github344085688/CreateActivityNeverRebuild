@@ -1,0 +1,2 @@
+rootProject.name='noRebuildEx'
+include ':app'
