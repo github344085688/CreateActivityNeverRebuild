@@ -8,4 +8,39 @@
     <color name="black">#000</color>
     <color name ="oliveGreen">#14233F</color>
     <color name ="homeBg_color">#FFF1C7</color>
+
+
+
+
+    <color name="text">#252525</color>
+    <color name="dark">#4f4f4f</color>
+    <color name="gold">#d78f2f</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#9c9c9c</color>
+    <color name="lightgray">#a0a0a0</color>
+    <color name="darkgray">#7b7b7b</color>
+    <color name="dimgray">#5b5b5b</color>
+    <color name="red">#ff0000</color>
+    <color name="pink">#f76d6d</color>
+    <color name="blue">#0000ff</color>
+    <color name="brown">#f2af19</color>
+    <color name="green">#9cbe08</color>
+    <color name="light_gold">#ccca6e</color>
+
+    <color name="login_button">#ff775025</color>
+
+    <color name="hintColor">#d7d7d7</color>
+    <color name="pressBarBg">#f2f2f2</color>
+    <color name="lightBg">#fefefe</color>
+
+    <color name="btn_login_press">#a83a3a</color>
+    <color name="btn_login_normal">#f15353</color>
+    <color name="btn_login_disabled">#e1e1e3</color>
+
+    <!-- topbar背景色 -->
+    <color name="bg_topbar">#fbfbfb</color>
+
+    <!-- 分隔条颜色 -->
+    <color name="divider_color">#cccccc</color>
+
 </resources>

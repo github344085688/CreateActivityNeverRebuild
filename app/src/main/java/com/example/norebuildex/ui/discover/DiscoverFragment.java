@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.example.norebuildex.R;
 
 import com.example.norebuildex.common.Constant;
+import com.example.norebuildex.utilConfig.SetStatusBar;
 
 
 public class DiscoverFragment extends Fragment {
@@ -23,7 +24,7 @@ public class DiscoverFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-
+//        setStatusBar();
         Log.d(Constant.TAG, "22222222222222222222222222222222222222");
 
         return inflater.inflate(R.layout.discover_fragment, container, false);
@@ -36,4 +37,11 @@ public class DiscoverFragment extends Fragment {
         mViewModel = ViewModelProviders.of(this).get(DiscoverViewModel.class);
         // TODO: Use the ViewModel
     }
+
+//    private void setStatusBar() {
+//        SetStatusBar.isUseFullScreenMode = false;
+//        SetStatusBar.getStatusBarColor = R.color.colorPrimary;
+//        SetStatusBar.isUseBlackFontWithStatusBar = true;
+//        SetStatusBar.setStatusBar(getActivity());
+//    }
 }
